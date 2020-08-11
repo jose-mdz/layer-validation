@@ -1,0 +1,28 @@
+{
+  "name": "layer-validation",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": ["lib/"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menendezpoo/layer-validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menendezpoo/layer-validation/issues"
+  },
+  "homepage": "https://github.com/menendezpoo/layer-validation#readme",
+  "dependencies": {
+    "ajv": "^6.12.3"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.5",
+    "@types/node": "^14.0.27"
+  }
+}
